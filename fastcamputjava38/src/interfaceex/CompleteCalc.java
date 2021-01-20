@@ -14,5 +14,9 @@ public class CompleteCalc extends Calculator{
 		else
 			return num1 / num2;
 	}
+	
+	public void showInfo() {
+		System.out.println("모두 구현하였습니다.");
+	}
 
 }

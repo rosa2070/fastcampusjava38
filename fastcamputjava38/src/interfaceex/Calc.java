@@ -10,6 +10,6 @@ public interface Calc {
 	int times(int num1, int num2);
 	int divide(int num1, int num2);
 	
-	
+
 
 }
