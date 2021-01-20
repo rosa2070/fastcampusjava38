@@ -2,6 +2,6 @@ package interfaceex;
 
 public interface Calc {
 	
-	double PI = 3.14;
+	double PI = 3.
 
 }
