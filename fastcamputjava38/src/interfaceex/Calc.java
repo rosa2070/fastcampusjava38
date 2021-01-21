@@ -21,12 +21,17 @@ public interface Calc {
 		for(int i: arr) {
 			total += i;
 		}
-		
+		mystaticMethod();
 		return total;
 	}
 	
 	private void myMethod() {
 		System.out.println("private method");
+	}
+	
+	private static void mystaticMethod() {
+		System.out.println("private static method");
+		
 	}
 
 }
