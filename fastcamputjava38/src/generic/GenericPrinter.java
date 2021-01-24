@@ -1,6 +1,6 @@
 package generic;
 
-public class GenericPrinter<T> {
+public class GenericPrinter<T extends Meterial>{
 	
 	private T material;
 
@@ -14,6 +14,10 @@ public class GenericPrinter<T> {
 	
 	public String toString() {
 		return material.toString();
+	}
+	
+	public void printing() {
+		material.doPrinting();
 	}
 
 }
