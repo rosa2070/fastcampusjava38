@@ -50,9 +50,9 @@ public class Member implements Comparator<Member>{
 	}*/
 	
 	@Override
-	public int compare(Member o1, Member o2) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int compare(Member member1, Member member2) {
+		
+		return (member1.memberId - member2.memberId);
 	}
 	
 	
